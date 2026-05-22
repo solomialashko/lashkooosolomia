@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+
+    <title>Мої улюблені книги</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color:#ffe6e6;
+            text-align:center;
+        }
+        header{
+             background-color: #ff9999;
+             color: white;
+             padding: 20px;
+
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        ul li{
+            list-style: none;}
+        a{
+        text-decoration: none;}
+        nav{
+            background-color: #ff5c73;
+            border-color: black;
+            min-height: 54px;
+        }
+        nav li{
+            float: left;
+            width: 100px;
+        }
+        nav a{
+            display: block;
+            line-height: 4em;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        nav li a:hover{
+            color: #bc2977;
+            background-color: #ffbb94;
+        }
+        .container {
+            display: flex; 
+            padding: 20px;
+             justify-content: space-around;
+        }
+        .box {
+            background-color: #ff9999;
+            width: 30%;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .box img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+
+        footer {
+            background-color:#ffcccc ;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+
+        }
+form{
+    width: 500px;
+    margin: 40px;
+}
+h2{
+    text-align: center;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+textarea{
+    height: 110px;
+    width: 520px;
+}
+input, select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    background: #ff9aa8;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background: #867979;
+}
+       
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+          <li><a href="практичнасайт.html">Головна</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+        </ul>
+    </nav>
+    <h1>Про мене</h1>
+    <p>тут щось буде.</p>
+</header>
+<div class="contact-form">
+<form>
+    <h2>Зворотній звязок</h2>
+<label for="firstName">Імя:</label>
+<input type="text" id="firstName" placeholder="Ваше імя">
+
+<label for="email">Електронна пошта:</label>
+<input type="email" id="email" placeholder="example@email.com">
+
+<label>Повідомлення:</label>
+<textarea id="textarea" placeholder="Введіть ваше повідомлення тут..."></textarea>
+
+<button type="sumbit">Відправити</button>
+
+</form>
+</div>
+
